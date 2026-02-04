@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ================= HERO ================= */
+.hero {
+    background: linear-gradient(rgba(142,27,91,0.85), rgba(244,180,0,0.85)),
+                url('https://images.unsplash.com/photo-1504711434969-e33886168f5c') center/cover;
+    color: #fff;
+    padding: 90px 10%;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.tagline {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-style: italic;
+    color: #ffe082;
+    letter-spacing: 1px;
+    margin: 15px 0 18px;
+}
+
+.hero p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 17px;
+}
+
+/* ================= BUTTON ================= */
+.btn {
+    display: inline-block;
+    margin-top: 22px;
+    padding: 12px 32px;
+    background: #8e1b5b;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #6f1446;
+}
+
+.btn.white {
+    background: #fff;
+    color: #8e1b5b;
+}
+
+/* ================= SECTIONS ================= */
+section {
+    padding: 55px 10%;
+}
+
+h2 {
+    color: #8e1b5b;
+    font-size: 34px;
+    margin-bottom: 22px;
+}
+
+/* ================= ABOUT ================= */
+.about {
+    background: #f9f9f9;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 35px;
+    align-items: center;
+}
+
+.about img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* ================= STATS ================= */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    background: linear-gradient(to right, #8e1b5b, #f4b400);
+    color: #fff;
+}
+
+.stat-box {
+    padding: 30px;
+    text-align: center;
+}
+
+.stat-box h3 {
+    font-size: 22px;
+    margin-bottom: 6px;
+}
+
+/* ================= MISSION & VISION ================= */
+.mv {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.box {
+    background: #fff;
+    padding: 25px;
+    border-left: 5px solid #f4b400;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ================= SERVICES ================= */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.service-card {
+    background: #fff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+    transition: 0.3s ease;
+}
+
+.service-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.service-card h3 {
+    padding: 14px 15px 6px;
+    color: #8e1b5b;
+    font-size: 18px;
+}
+
+.service-card p {
+    padding: 0 15px 18px;
+    font-size: 15px;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+}
+
+/* ================= APPROACH ================= */
+.approach .step {
+    margin-bottom: 14px;
+    padding-left: 42px;
+    position: relative;
+}
+
+.approach .step::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    background: #f4b400;
+    color: #000;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* ================= CONTACT ================= */
+.contact {
+    background: #8e1b5b;
+    color: #fff;
+    text-align: center;
+    padding: 45px 10%;
+}
+
+.contact h2 {
+    color: #fff;
+}
+
+.contact p {
+    font-size: 16px;
+    margin: 6px 0;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 13px;
+}
