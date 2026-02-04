@@ -205,3 +205,40 @@ footer {
     padding: 8px 0;
     font-size: 13px;
 }
+
+/* Header Contact Styling */
+.top-contact {
+    position: absolute;
+    top: 25px;
+    right: 10%;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    backdrop-filter: blur(6px);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.top-contact a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.top-contact a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile friendly */
+@media (max-width: 768px) {
+    .top-contact {
+        position: static;
+        margin-bottom: 25px;
+        justify-content: center;
+    }
+}
+
